@@ -1,0 +1,44 @@
+# Compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Pastas de build comuns (Maven/Gradle), caso o projeto evolua
+target/
+build/
+out/
+bin/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.bak
+*~
