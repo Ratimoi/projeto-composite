@@ -163,14 +163,12 @@ padrões estruturais estudados pelos colegas de grupo, etc.)*
 
 ```bash
 # Sem o padrão
-cd sem-padrao
-javac *.java
-java Main
+javac .\sempadrao\*.java
+java sempadrao.Main
 
 # Com o padrão
-cd com-padrao
-javac *.java
-java Main
+javac .\compadrao\*.java
+java compadrao.Main
 ```
 
 ## 14. Referências
