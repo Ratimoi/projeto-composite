@@ -154,10 +154,13 @@ Resultado:
 
 ## 12. Conclusões do grupo
 
-*(preencher após a discussão do grupo — pontos como: o quanto o padrão
-realmente simplificou o código no exemplo estudado, dificuldades
-encontradas, se vale a pena em projetos pequenos, comparação com outros
-padrões estruturais estudados pelos colegas de grupo, etc.)*
+O estudo do padrão Composite mostrou como ele simplifica a modelagem de estruturas hierárquicas do tipo parte-todo, permitindo que objetos individuais e composições sejam tratados de maneira uniforme. No exemplo do sistema de arquivos, foi possível observar que a utilização de uma interface comum eliminou a necessidade de manter listas separadas para cada tipo de elemento e reduziu a duplicação de código nas operações de cálculo e exibição.
+
+Comparando as duas implementações, percebe-se que a versão com o padrão apresenta melhor organização, maior reutilização de código e maior facilidade de manutenção. Além disso, ela está mais alinhada aos princípios da orientação a objetos, especialmente ao Princípio Aberto/Fechado (Open/Closed Principle – OCP), pois novos tipos de componentes podem ser adicionados sem modificar as classes existentes.
+
+Por outro lado, o padrão também exige um planejamento cuidadoso da interface comum, para que ela represente apenas comportamentos realmente compartilhados entre folhas e composições. Em aplicações muito simples, sua utilização pode aumentar a quantidade de classes sem trazer benefícios significativos. Entretanto, em sistemas que possuem estruturas hierárquicas complexas ou que tendem a evoluir ao longo do tempo, o Composite oferece vantagens importantes em termos de flexibilidade, extensibilidade e organização do código.
+
+Dessa forma, conclui-se que o padrão Composite é uma solução eficiente para representar árvores de objetos e tornar o código mais limpo, reutilizável e preparado para futuras extensões, sendo uma alternativa recomendada sempre que houver a necessidade de manipular estruturas recursivas de forma uniforme.
 
 ## 13. Como executar os exemplos
 
